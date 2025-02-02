@@ -3,6 +3,7 @@ import { Container, Typography, Button, CircularProgress } from '@mui/material'
 import EggIcon from '@mui/icons-material/Egg'
 import { motion } from 'framer-motion'
 import { eggTypes } from '../types/eggTypes'
+import { yellow } from '@mui/material/colors'
 
 const BoilingEggApp: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<number | null>(null)
@@ -42,7 +43,7 @@ const BoilingEggApp: React.FC = () => {
       }}
     >
       <Typography variant="h4" gutterBottom>
-        🥚 Cute Egg Boiler
+        How would you like your eggs?
       </Typography>
       <motion.div
         animate={{ rotate: isBoiling ? 360 : 0 }}
@@ -70,7 +71,7 @@ const BoilingEggApp: React.FC = () => {
             <Button
               key={egg.time}
               variant="contained"
-              sx={{ m: 1 }}
+              sx={{ m: 1, color: 'yellow', bgcolor: yellow[800] }}
               onClick={() => startBoiling(egg.time)}
             >
               {egg.label}
