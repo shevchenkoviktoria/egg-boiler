@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# 🥚 Cute Egg Boiler
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and fun React application that allows you to select different boiling times for your egg. Whether you want a soft, liquid, or hard-boiled egg, this app will help you manage your boiling time and let you know when your egg is ready!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
+- **Choose your egg type**: Select from different boiling times (Soft, Liquid, Softly Set, Hard, etc.).
+- **Timer**: Visual countdown timer that updates every second.
+- **Animation**: A cute rotating egg icon while the egg is boiling.
+- **Circular progress bar**: Displays progress as your egg boils.
+- **Alert**: Once the egg is done, an alert notifies you that your egg is ready!
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Demo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can check out a live demo (or use it locally) to see how the app works and how each egg boiling time reacts!
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- **React** - JavaScript library for building user interfaces.
+- **Material-UI** - React components for faster and easier web development.
+- **Framer Motion** - For smooth and interactive animations (used for rotating the egg).
+- **TypeScript** - For static typing, helping with reliability and maintainability.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```git clone https://github.com/yourusername/egg-boiler.git```
+```cd egg-boiler```
 
-### `npm run eject`
+Install dependencies
+Make sure you have Node.js installed. Then, run the following command to install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```npm install```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Run the app
+To start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```npm start```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This will run the app at http://localhost:3000 in your browser.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### How to Use the App
+1. Upon opening the app, you will see an egg icon with a timer.
+2. Choose the type of egg you want to boil by clicking one of the buttons (Soft, Liquid, Softly Set, Hard).
+3. The egg icon will start rotating, and a countdown will begin to show you the time left.
+4. The circular progress bar will reflect the boiling progress.
+5. Once the timer reaches zero, an alert will notify you that your egg is ready!
