@@ -43,7 +43,7 @@ const BoilingEggApp: React.FC = () => {
       }}
     >
       <Typography variant="h4" gutterBottom>
-        What’s your perfect boiled egg
+        What’s your perfect boiled egg?
       </Typography>
       <motion.div
         animate={{ rotate: isBoiling ? 360 : 0 }}
