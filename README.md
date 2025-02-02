@@ -13,12 +13,6 @@ A simple and fun React application that allows you to select different boiling t
 
 ---
 
-## Demo
-
-You can check out a live demo (or use it locally) to see how the app works and how each egg boiling time reacts!
-
----
-
 ## Technologies Used
 - **React** - JavaScript library for building user interfaces.
 - **Material-UI** - React components for faster and easier web development.
