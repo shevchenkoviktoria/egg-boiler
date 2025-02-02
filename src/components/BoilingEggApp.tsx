@@ -8,9 +8,15 @@ const BoilingEggApp: React.FC = () => {
     const [timeLeft, setTimeLeft] = useState<number | null>(null);
     const [isBoiling, setIsBoiling] = useState(false);
 
+    const playSound = () => {
+        const audio = new Audio("/sounds/timer-done.mp3");
+        audio.play();
+    };
+
     useEffect(() => {
         if (timeLeft === 0) {
             setIsBoiling(false);
+            playSound();
             alert("Your egg is ready! 🥚🍳");
         }
 
