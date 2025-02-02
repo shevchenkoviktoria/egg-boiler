@@ -1,43 +1,43 @@
-import React, { useState, useEffect } from "react";
-import { Container, Typography, Button, CircularProgress } from "@mui/material";
-import EggIcon from "@mui/icons-material/Egg";
-import { motion } from "framer-motion";
-import { eggTypes } from "../types/eggTypes";
+import React, { useState, useEffect } from 'react'
+import { Container, Typography, Button, CircularProgress } from '@mui/material'
+import EggIcon from '@mui/icons-material/Egg'
+import { motion } from 'framer-motion'
+import { eggTypes } from '../types/eggTypes'
 
 const BoilingEggApp: React.FC = () => {
-  const [timeLeft, setTimeLeft] = useState<number | null>(null);
-  const [isBoiling, setIsBoiling] = useState(false);
+  const [timeLeft, setTimeLeft] = useState<number | null>(null)
+  const [isBoiling, setIsBoiling] = useState(false)
 
   const playSound = () => {
-    const audio = new Audio("/sounds/timer-done.mp3");
-    audio.play();
-  };
+    const audio = new Audio('/sounds/timer-done.mp3')
+    audio.play()
+  }
 
   useEffect(() => {
     if (timeLeft === 0) {
-      setIsBoiling(false);
-      playSound();
-      alert("Your egg is ready! 🥚🍳");
+      setIsBoiling(false)
+      playSound()
+      alert('Your egg is ready! 🥚🍳')
     }
 
     if (isBoiling && timeLeft && timeLeft > 0) {
-      const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
-      return () => clearTimeout(timer);
+      const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000)
+      return () => clearTimeout(timer)
     }
-  }, [timeLeft, isBoiling]);
+  }, [timeLeft, isBoiling])
 
   const startBoiling = (time: number) => {
-    setTimeLeft(time);
-    setIsBoiling(true);
-  };
+    setTimeLeft(time)
+    setIsBoiling(true)
+  }
 
   return (
     <Container
       maxWidth="xs"
       sx={{
-        textAlign: "center",
+        textAlign: 'center',
         padding: 4,
-        backgroundColor: "#FFFAE5",
+        backgroundColor: '#FFFAE5',
         borderRadius: 3,
       }}
     >
@@ -48,7 +48,7 @@ const BoilingEggApp: React.FC = () => {
         animate={{ rotate: isBoiling ? 360 : 0 }}
         transition={{ duration: 2, repeat: Infinity }}
       >
-        <EggIcon sx={{ fontSize: 100, color: "#FFC107" }} />
+        <EggIcon sx={{ fontSize: 100, color: '#FFC107' }} />
       </motion.div>
       {isBoiling && timeLeft !== null ? (
         <>
@@ -79,7 +79,7 @@ const BoilingEggApp: React.FC = () => {
         </>
       )}
     </Container>
-  );
-};
+  )
+}
 
-export default BoilingEggApp;
+export default BoilingEggApp
