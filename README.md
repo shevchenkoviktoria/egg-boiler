@@ -17,7 +17,7 @@ A simple and fun React application that allows you to select different boiling t
 - **Timer**: Visual countdown timer that updates every second.
 - **Animation**: A cute rotating egg icon while the egg is boiling.
 - **Circular progress bar**: Displays progress as your egg boils.
-- **Alert**: Once the egg is done, an alert notifies you that your egg is ready!
+- **Alert**: Once the egg is done, an alert sound notifies you that your egg is ready!
 
 ---
 
