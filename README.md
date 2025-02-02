@@ -48,11 +48,3 @@ Make sure you have Node.js installed. Then, run the following command to install
 `npm start`
 
 This will run the app at http://localhost:3000 in your browser.
-
-### How to Use the App
-
-1. Upon opening the app, you will see an egg icon with a timer.
-2. Choose the type of egg you want to boil by clicking one of the buttons (Soft, Liquid, Softly Set, Hard).
-3. The egg icon will start rotating, and a countdown will begin to show you the time left.
-4. The circular progress bar will reflect the boiling progress.
-5. Once the timer reaches zero, an alert will notify you that your egg is ready!
