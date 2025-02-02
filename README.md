@@ -5,6 +5,7 @@ A simple and fun React application that allows you to select different boiling t
 ---
 
 ## Features
+
 - **Choose your egg type**: Select from different boiling times (Soft, Liquid, Softly Set, Hard, etc.).
 - **Timer**: Visual countdown timer that updates every second.
 - **Animation**: A cute rotating egg icon while the egg is boiling.
@@ -14,6 +15,7 @@ A simple and fun React application that allows you to select different boiling t
 ---
 
 ## Technologies Used
+
 - **React** - JavaScript library for building user interfaces.
 - **Material-UI** - React components for faster and easier web development.
 - **Framer Motion** - For smooth and interactive animations (used for rotating the egg).
@@ -25,22 +27,23 @@ A simple and fun React application that allows you to select different boiling t
 
 ### 1. Clone the repository
 
-```git clone https://github.com/yourusername/egg-boiler.git```
-```cd egg-boiler```
+`git clone https://github.com/yourusername/egg-boiler.git`
+`cd egg-boiler`
 
 Install dependencies
 Make sure you have Node.js installed. Then, run the following command to install dependencies:
 
-```npm install```
+`npm install`
 
 3. Run the app
-To start the development server:
+   To start the development server:
 
-```npm start```
+`npm start`
 
 This will run the app at http://localhost:3000 in your browser.
 
 ### How to Use the App
+
 1. Upon opening the app, you will see an egg icon with a timer.
 2. Choose the type of egg you want to boil by clicking one of the buttons (Soft, Liquid, Softly Set, Hard).
 3. The egg icon will start rotating, and a countdown will begin to show you the time left.
