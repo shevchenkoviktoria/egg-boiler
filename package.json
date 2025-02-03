@@ -2,7 +2,7 @@
   "name": "egg-boiler",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/egg-boiler",
+  "homepage": "https://shevchenkoviktoria.github.io/egg-boiler",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
