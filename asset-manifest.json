@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/egg-boiler/static/js/main.d8e53110.js",
+    "index.html": "/egg-boiler/index.html",
+    "main.d8e53110.js.map": "/egg-boiler/static/js/main.d8e53110.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d8e53110.js"
+  ]
+}
