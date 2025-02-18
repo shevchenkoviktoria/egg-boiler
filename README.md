@@ -44,7 +44,7 @@ Make sure you have Node.js installed. Then, run the following command to install
 `npm install`
 
 3. Run the app
-   To start the development server:
+To start the development server:
 
 `npm start`
 
