@@ -11,7 +11,7 @@ interface StartScreenProps {
 const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
   return (
     <Container
-      maxWidth="xs"
+      maxWidth="sm"
       sx={{
         textAlign: 'center',
         paddingY: 8,

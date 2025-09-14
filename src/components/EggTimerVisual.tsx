@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import { motion } from 'framer-motion'
 import EggIcon from '@mui/icons-material/Egg'
 
-interface EggTimerVisualProps {
+type EggTimerVisualProps ={
   progress: number
   timeLeft: number
   size?: number
@@ -57,7 +57,6 @@ const EggTimerVisual: React.FC<EggTimerVisualProps> = ({
         />
       </svg>
 
-      {/* Egg icon (centered perfectly by flexbox) */}
       <motion.div
         style={{
           width: size * 0.5,
@@ -68,7 +67,6 @@ const EggTimerVisual: React.FC<EggTimerVisualProps> = ({
       >
         <EggIcon sx={{ width: '100%', height: '100%', color: '#F2B134' }} />
       </motion.div>
-
     </Box>
   )
 }
