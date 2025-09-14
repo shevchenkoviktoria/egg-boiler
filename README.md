@@ -2,12 +2,11 @@
 
 A simple and fun React application that allows you to select different boiling times for your egg. Whether you want a soft, liquid, or hard-boiled egg, this app will help you manage your boiling time and let you know when your egg is ready!
 
-<img width="512" alt="image" src="https://github.com/user-attachments/assets/a6a0844c-6225-4f4c-abad-cc8ca41826ad" />
-
-<img width="495" alt="image" src="https://github.com/user-attachments/assets/d9bac582-67c9-4cf4-9fc5-f4d7b555dfb1" />
 
 
-<img width="504" alt="image" src="https://github.com/user-attachments/assets/bd2883a3-a9dc-4f1f-b4ca-1f890e8d6f20" />
+
+https://github.com/user-attachments/assets/ab5df04a-a917-483b-a32a-efebb107533c
+
 
 
 ---
